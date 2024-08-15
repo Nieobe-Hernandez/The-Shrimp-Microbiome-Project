@@ -1,10 +1,10 @@
 import axios from 'axios';
 
-const SERVER_URL = 'http://localhost:8080'; // URL del servidor Spring Boot
+const SERVER_URL = 'http://132.248.32.14'; // URL del servidor Spring Boot
 
 const AxiosClient = axios.create({
     baseURL: SERVER_URL,
-    withCredentials: true, // Permitir credenciales en las peticiones
+    withCredentials: true, 
     headers: {
         'Accept': 'application/json',
         'Content-Type': 'application/json',
@@ -12,7 +12,7 @@ const AxiosClient = axios.create({
 });
 
 AxiosClient.interceptors.response.use(
-    (response) => response, // Retorna la respuesta completa
+    (response) => response, 
     (error) => Promise.reject(error)
 );
 

@@ -1,6 +1,6 @@
 import AxiosClient from "../config/http-client/axios-client";
 
-const API_URL = 'http://localhost:8083/api';
+const API_URL = 'http://132.248.32.14/api';
 
 export const getBacteriaDatos = async (page = 0, size = 100) => {
   const response = await AxiosClient.get(`${API_URL}?page=${page}&size=${size}`);
