@@ -1,0 +1,40 @@
+// src/assets/Colectas/images.js
+import image1 from "./00015b83-0d68-4209-89e8-3d08be443fa9.jpg";
+import image2 from "./02c3c868-e786-4189-b712-8c1adc6e43c6.jpg";
+import image3 from "./2d2b726a-af11-44a8-9ee3-56365ce40552-1.jpg";
+import image4 from "./3c40b598-433e-4d3e-a1cc-ef8c532b9dec.jpg";
+import image5 from "./4e5dddf5-930b-4c72-a293-6f7c64278aea.jpg";
+import image6 from "./977e12f2-115f-4303-a172-6a782b26c86a.jpg";
+import image7 from "./20160609_080851 (1).jpg";
+import image8 from "./20160609_084805.jpg";
+import image9 from "./20160609_085507.jpg";
+import image10 from "./20160609_090126.jpg";
+import image11 from "./20160609_090454.jpg";
+import image12 from "./20160609_095354.jpg";
+import image13 from "./20160609_112843.jpg";
+import image14 from "./20160609_192601.jpg";
+import image15 from "./cd683987-e51a-4ea5-bbbb-55415f250027.jpg";
+import image16 from "./dc5bfb3c-c631-4d4a-8308-0ab25abb2b6f.JPEG";
+import image17 from "./Copia de 1.jpg";
+
+const images = {
+  image17,
+  image1,
+  image2,
+  image3,
+  image4,
+  image5,
+  image6,
+  image7,
+  image8,
+  image9,
+  image10,
+  image11,
+  image12,
+  image13,
+  image14,
+  image15,
+  image16,
+};
+
+export default images;

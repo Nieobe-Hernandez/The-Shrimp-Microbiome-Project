@@ -1,0 +1,13 @@
+.carousel-container-ibt {
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 1rem;
+  }
+  
+  .carousel-container-ibt img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  

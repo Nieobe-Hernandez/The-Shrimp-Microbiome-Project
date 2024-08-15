@@ -1,0 +1,29 @@
+.content-with-navbar {
+    margin-top: 6rem; /* Ajusta este valor según la altura de tu barra de navegación */
+  }
+
+  .bg-navbar {
+    background-color: #0066CC !important;
+    opacity: 1 !important;
+  }
+  
+  @media (max-width: 768px) {
+    .project-title {
+      display: none;
+    }
+  
+    .collapsed-title {
+      display: block;
+      font-size: 1rem; /* Ajusta el tamaño de la fuente según sea necesario */
+    }
+  }
+  
+  @media (min-width: 769px) {
+    .collapsed-title {
+      display: none;
+    }
+  
+    .project-title {
+      display: block;
+    }
+  }

@@ -1,0 +1,32 @@
+// src/assets/Primer_reel/images.js
+import image13 from "./probioticos-Litopenaeus-vannamei.jpeg";
+import image3 from "./imagen1.jpeg";
+import image2 from "./dna-web.jpg";
+import image4 from "./imagen6.jpeg";
+import image5 from "./imagen3.JPEG";
+import image6 from "./imagen4.jpg";
+import image7 from "./1.jpeg";
+import image8 from "./imagen2.jpeg";
+import image9 from "./ciclo-de-vida-de-los-camarones-2.jpg";
+import image10 from "./imagen5.jpg";
+import image11 from "./imagen7.jpeg";
+import image12 from "./imagen9.jpeg";
+import image1 from "./dna.jpg";
+
+const images = {
+  image13,
+  image3,
+  image7,
+  image1,
+  image4,
+  image5,
+  image6,
+  image2,
+  image8,
+  image9,
+  image10,
+  image11,
+  image12,
+};
+
+export default images;
